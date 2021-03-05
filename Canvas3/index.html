@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Proyecto Parcial</title>
+    <link rel="stylesheet" href="../Canvas3/css/canvas3.css">
+    <script src="../Canvas3/js/canvas3.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>Proyecto Parcial</h1>
+    </center>
+    <div id="holder">
+        <center>
+            <canvas id="canvas"></canvas>
+        </center>
+        <center>
+            <input class="butt" type="button" value="Cargar" onclick="Cargar();" />
+            <input class="butt" type="button" value="Borrar" onclick="Borrar();" /></center>
+        <br><br>
+        <div class="extra">
+            <div class="efectos">
+                <center>
+                    <h2>Efectos</h2>
+                    <input class="butt" type="button" value="Grises" onclick="Gris();" />
+                    <br><br>
+                    <input class="butt" type="button" value="B/N" onclick="BN();" />
+                    <br><br>
+                    <input class="butt" type="button" value="Sepia" onclick="Sepia();" />
+                    <br><br>
+                    <input type="button" class="butt" value="Negativo" onclick="Negativo();">
+                </center>
+                <br>
+            </div>
+            <div class="canales">
+                <center>
+                    <h2>Canales</h2>
+
+                    <input type="checkbox" id="cred"> Rojo
+                    <br>
+                    <input type="checkbox" id="cgreen"> Verde
+                    <br>
+                    <input type="checkbox" id="cblue"> Azul
+
+                    <br><br>
+                    <input class="butt" type="button" value="Aplicar" onclick="Aplicar();" /></center>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
